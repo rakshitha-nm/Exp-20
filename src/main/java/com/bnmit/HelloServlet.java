@@ -1,4 +1,4 @@
-package com.example;
+package com.bnmit;
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
