@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Run Container') {
             steps {
-                bat 'docker run -d -p 8087:8087 --name  sample-webapp-container sample-webapp '
+                bat 'docker run -d -p 8087:8080 --name  sample-webapp-container sample-webapp '
             }
         }
 
